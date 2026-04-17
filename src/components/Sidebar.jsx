@@ -69,14 +69,17 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
           width: '32px',
           height: '32px',
           borderRadius: '8px',
-          background: 'linear-gradient(135deg, var(--primary), var(--secondary))',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white',
-          flexShrink: 0
+          flexShrink: 0,
+          overflow: 'hidden'
         }}>
-          <Sparkles size={20} />
+          <img 
+            src="/src/assets/ChatGPT Image Apr 17, 2026, 06_24_54 PM.png" 
+            alt="Logo" 
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+          />
         </div>
         {!collapsed && (
           <h1 style={{ 
