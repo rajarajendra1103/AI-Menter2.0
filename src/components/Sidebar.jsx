@@ -76,7 +76,7 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
           overflow: 'hidden'
         }}>
           <img 
-            src="/src/assets/ChatGPT Image Apr 17, 2026, 06_24_54 PM.png" 
+            src="/favicon.png" 
             alt="Logo" 
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
           />
